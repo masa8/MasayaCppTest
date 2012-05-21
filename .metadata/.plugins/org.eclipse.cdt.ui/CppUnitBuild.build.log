@@ -1,0 +1,66 @@
+
+**** Build of configuration Debug for project CppUnitBuild ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestResult.o ..\TestResult.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o UnixDynamicLibraryManager.o ..\UnixDynamicLibraryManager.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o Exception.o ..\Exception.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestFactoryRegistry.o ..\TestFactoryRegistry.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o XmlDocument.o ..\XmlDocument.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestDecorator.o ..\TestDecorator.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o StringTools.o ..\StringTools.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestRunner.o ..\TestRunner.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o XmlOutputterHook.o ..\XmlOutputterHook.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestSuccessListener.o ..\TestSuccessListener.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o XmlElement.o ..\XmlElement.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o ShlDynamicLibraryManager.o ..\ShlDynamicLibraryManager.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o DynamicLibraryManagerException.o ..\DynamicLibraryManagerException.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestAssert.o ..\TestAssert.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TypeInfoHelper.o ..\TypeInfoHelper.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestCase.o ..\TestCase.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestNamer.o ..\TestNamer.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o DynamicLibraryManager.o ..\DynamicLibraryManager.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o CompilerOutputter.o ..\CompilerOutputter.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TextOutputter.o ..\TextOutputter.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o BriefTestProgressListener.o ..\BriefTestProgressListener.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestCaseDecorator.o ..\TestCaseDecorator.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o SourceLine.o ..\SourceLine.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestResultCollector.o ..\TestResultCollector.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TextTestResult.o ..\TextTestResult.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o DefaultProtector.o ..\DefaultProtector.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestComposite.o ..\TestComposite.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o RepeatedTest.o ..\RepeatedTest.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestFailure.o ..\TestFailure.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o PlugInManager.o ..\PlugInManager.cpp
+In file included from ..\PlugInManager.cpp:7:0:
+C:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include/cppunit/plugin/TestPlugIn.h:149:0: warning: "NOMINMAX" redefined
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/os_defines.h:46:0: note: this is the location of the previous definition
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o ProtectorChain.o ..\ProtectorChain.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o PlugInParameters.o ..\PlugInParameters.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o Test.o ..\Test.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o Message.o ..\Message.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o XmlOutputter.o ..\XmlOutputter.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o Asserter.o ..\Asserter.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o AdditionalMessage.o ..\AdditionalMessage.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestSetUp.o ..\TestSetUp.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o Win32DynamicLibraryManager.o ..\Win32DynamicLibraryManager.cpp
+..\Win32DynamicLibraryManager.cpp:11:0: warning: "NOMINMAX" redefined
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/os_defines.h:46:0: note: this is the location of the previous definition
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o BeOsDynamicLibraryManager.o ..\BeOsDynamicLibraryManager.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o Protector.o ..\Protector.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestLeaf.o ..\TestLeaf.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestPlugInDefaultImpl.o ..\TestPlugInDefaultImpl.cpp
+In file included from C:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include/cppunit/plugin/TestPlugInDefaultImpl.h:8:0,
+                 from ..\TestPlugInDefaultImpl.cpp:7:
+C:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include/cppunit/plugin/TestPlugIn.h:149:0: warning: "NOMINMAX" redefined
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/os_defines.h:46:0: note: this is the location of the previous definition
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o DllMain.o ..\DllMain.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TextTestRunner.o ..\TextTestRunner.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestPath.o ..\TestPath.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o SynchronizedObject.o ..\SynchronizedObject.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestSuiteBuilderContext.o ..\TestSuiteBuilderContext.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TestSuite.o ..\TestSuite.cpp
+g++ -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -IC:\MinGW\msys\1.0\include -O0 -g3 -Wall -c -fmessage-length=0 -o TextTestProgressListener.o ..\TextTestProgressListener.cpp
+ar -r libCppUnitBuild.a XmlOutputterHook.o XmlOutputter.o XmlElement.o XmlDocument.o Win32DynamicLibraryManager.o UnixDynamicLibraryManager.o TypeInfoHelper.o TextTestRunner.o TextTestResult.o TextTestProgressListener.o TextOutputter.o TestSuiteBuilderContext.o TestSuite.o TestSuccessListener.o TestSetUp.o TestRunner.o TestResultCollector.o TestResult.o TestPlugInDefaultImpl.o TestPath.o TestNamer.o TestLeaf.o TestFailure.o TestFactoryRegistry.o TestDecorator.o TestComposite.o TestCaseDecorator.o TestCase.o TestAssert.o Test.o SynchronizedObject.o StringTools.o SourceLine.o ShlDynamicLibraryManager.o RepeatedTest.o ProtectorChain.o Protector.o PlugInParameters.o PlugInManager.o Message.o Exception.o DynamicLibraryManagerException.o DynamicLibraryManager.o DllMain.o DefaultProtector.o CompilerOutputter.o BriefTestProgressListener.o BeOsDynamicLibraryManager.o Asserter.o AdditionalMessage.o
+Build complete for project CppUnitBuild
+Time consumed: 121422  ms.  

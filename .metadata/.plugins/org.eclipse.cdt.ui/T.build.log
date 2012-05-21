@@ -1,0 +1,4 @@
+
+**** Clean-only build of configuration Debug for project T ****
+rm -rf src/T.d src/T.o T.exe
+Build complete for project T
