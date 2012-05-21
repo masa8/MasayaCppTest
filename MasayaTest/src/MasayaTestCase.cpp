@@ -6,6 +6,7 @@
  */
 
 #include "MasayaTestCase.h"
+#include "MeyersSingletonRegistry.h"
 
 CPPUNIT_TEST_SUITE_REGISTRATION( MasayaTestCase );
 
@@ -25,5 +26,17 @@ MasayaTestCase::setUp() {
 void
 MasayaTestCase::test_test() {
 	  CPPUNIT_ASSERT (true);
+}
+void
+MasayaTestCase::test_meyers_singleton_reg() {
+
+	MeyersSingletonRegistry<int>& reg = MeyersSingletonRegistry<int>::getInstance();
+	reg.set("one",new int(1));
+	int& x = reg.get("one");
+
+	std::cout << x << std::endl;
+
+
+	CPPUNIT_ASSERT (true);
 }
 
