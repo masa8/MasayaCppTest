@@ -7,6 +7,7 @@
 
 #include "MasayaTestCase.h"
 #include "MeyersSingletonRegistry.h"
+#include "SingletonHolder.h"
 
 CPPUNIT_TEST_SUITE_REGISTRATION( MasayaTestCase );
 
@@ -39,4 +40,24 @@ MasayaTestCase::test_meyers_singleton_reg() {
 
 	CPPUNIT_ASSERT (true);
 }
+
+	class MySingleton : public masaya::SingletonHolder<MySingleton>{
+	friend class masaya::SingletonHolder<MySingleton>;
+	private:
+		~MySingleton(){};
+	public:
+		bool isTrue(){
+			return true;
+		}
+	};
+void
+MasayaTestCase::test_singletonholder()
+{
+
+	MySingleton& x = MySingleton::get_instance();
+
+	CPPUNIT_ASSERT (x.isTrue());
+
+}
+
 

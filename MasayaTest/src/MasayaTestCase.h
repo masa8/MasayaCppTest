@@ -17,6 +17,7 @@ public:
 	  CPPUNIT_TEST_SUITE( MasayaTestCase );
 	  CPPUNIT_TEST( test_test );
 	  CPPUNIT_TEST( test_meyers_singleton_reg );
+	  CPPUNIT_TEST( test_singletonholder );
 	  CPPUNIT_TEST_SUITE_END();
 
 public:
@@ -24,6 +25,7 @@ public:
 
 protected:
   void test_test();
+  void test_singletonholder();
   void test_meyers_singleton_reg();
 
 };
