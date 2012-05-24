@@ -9,7 +9,7 @@
 #include "MeyersSingletonRegistry.h"
 #include "SingletonHolder.h"
 #include "MySingleton.h"
-
+#include "MyTimer.h"
 CPPUNIT_TEST_SUITE_REGISTRATION( MasayaTestCase );
 
 MasayaTestCase::MasayaTestCase() {
@@ -53,4 +53,19 @@ MasayaTestCase::test_singletonholder()
 
 }
 
+void
+MasayaTestCase::test_mytimer()
+{
+
+	masaya::MyTimer& x = masaya::MyTimer::get_instance();
+	x.start();
+	x.setCurrentTime("first");
+	x.setCurrentTime("second");
+	std::cout << "first" << x.getTime("first") << std::endl;
+	std::cout << "second" << x.getTime("second") << std::endl;
+	std::cout << "error" << x.getTime("error") << std::endl;
+
+	CPPUNIT_ASSERT (true);
+
+}
 
