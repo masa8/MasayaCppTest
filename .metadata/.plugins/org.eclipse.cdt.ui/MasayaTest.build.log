@@ -5,4 +5,4 @@
 g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
 g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
 Build complete for project MasayaTest
-Time consumed: 7140  ms.  
+Time consumed: 6406  ms.  

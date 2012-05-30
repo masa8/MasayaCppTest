@@ -3,11 +3,13 @@
 
 **** Internal Builder is used for build               ****
 g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
-g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
-src\MasayaTestCase.o:E:\eclipse-cdt\workspace_test\MasayaTest\Debug/../src//MasayaTestCase.h:22: undefined reference to `MasayaTestCase::test_character()'
-collect2: ld returned 1 exit status
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:90:2: error: 'context' was not declared in this scope
+..\src\MasayaTestCase.cpp:90:2: error: expected unqualified-id before 'static_cast'
+..\src\MasayaTestCase.cpp:88:7: warning: unused variable 'a'
+..\src\MasayaTestCase.cpp:89:7: warning: unused variable 'a_dif'
 Build error occurred, build is stopped
-Time consumed: 13718  ms.  
+Time consumed: 2469  ms.  
 
 **** Build of configuration Debug for project MasayaTest ****
 
@@ -15,7 +17,7 @@ Time consumed: 13718  ms.
 g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
 g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
 Build complete for project MasayaTest
-Time consumed: 7156  ms.  
+Time consumed: 6485  ms.  
 
 **** Build of configuration Debug for project MasayaTest ****
 
@@ -23,7 +25,61 @@ Time consumed: 7156  ms.
 g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
 g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
 Build complete for project MasayaTest
-Time consumed: 7578  ms.  
+Time consumed: 10141  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:101:2: error: 'strcmp' is not a member of 'std'
+Build error occurred, build is stopped
+Time consumed: 2328  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:101:2: error: invalid conversion from 'int' to 'const char*'
+..\src\MasayaTestCase.cpp:101:2: error:   initializing argument 1 of 'int strcmp(const char*, const char*)'
+..\src\MasayaTestCase.cpp:101:2: error: invalid conversion from 'char' to 'const char*'
+..\src\MasayaTestCase.cpp:101:2: error:   initializing argument 2 of 'int strcmp(const char*, const char*)'
+Build error occurred, build is stopped
+Time consumed: 2203  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:101:2: error: invalid conversion from 'int' to 'const char*'
+..\src\MasayaTestCase.cpp:101:2: error: too few arguments to function 'int strcmp(const char*, const char*)'
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/string.h:43:37: note: declared here
+Build error occurred, build is stopped
+Time consumed: 2719  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:101:2: error: invalid conversion from 'char' to 'const char*'
+..\src\MasayaTestCase.cpp:101:2: error:   initializing argument 1 of 'int strcmp(const char*, const char*)'
+..\src\MasayaTestCase.cpp:101:2: error: invalid conversion from 'char' to 'const char*'
+..\src\MasayaTestCase.cpp:101:2: error:   initializing argument 2 of 'int strcmp(const char*, const char*)'
+Build error occurred, build is stopped
+Time consumed: 2797  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:102:7: error: redeclaration of 'char x'
+..\src\MasayaTestCase.cpp:82:7: error: 'char x' previously declared here
+Build error occurred, build is stopped
+Time consumed: 2625  ms.  
 
 **** Build of configuration Debug for project MasayaTest ****
 
@@ -31,4 +87,34 @@ Time consumed: 7578  ms.
 g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
 g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
 Build complete for project MasayaTest
-Time consumed: 7140  ms.  
+Time consumed: 7593  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:104:9: warning: converting to non-pointer type 'char' from NULL
+..\src\MasayaTestCase.cpp:107:8: warning: converting to non-pointer type 'char' from NULL
+..\src\MasayaTestCase.cpp:109:2: error: cannot convert 'char (*)[2]' to 'const char*' for argument '1' to 'int strcmp(const char*, const char*)'
+Build error occurred, build is stopped
+Time consumed: 2609  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+..\src\MasayaTestCase.cpp: In member function 'void MasayaTestCase::test_character()':
+..\src\MasayaTestCase.cpp:104:9: warning: converting to non-pointer type 'char' from NULL
+..\src\MasayaTestCase.cpp:107:8: warning: converting to non-pointer type 'char' from NULL
+g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
+Build complete for project MasayaTest
+Time consumed: 6579  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
+Build complete for project MasayaTest
+Time consumed: 6406  ms.  
