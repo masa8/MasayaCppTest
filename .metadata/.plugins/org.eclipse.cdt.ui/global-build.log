@@ -2,13 +2,9 @@
 **** Build of configuration Debug for project MasayaTest ****
 
 **** Internal Builder is used for build               ****
-g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o include\SingletonHolder-Impl.o ..\include\SingletonHolder-Impl.cpp
 g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
 g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
-Build complete for project MasayaTest
-Time consumed: 11219  ms.  
-
-**** Build of configuration Debug for project MasayaTest ****
-
-**** Internal Builder is used for build               ****
-Nothing to build for MasayaTest
+src\MasayaTestCase.o:E:\eclipse-cdt\workspace_test\MasayaTest\Debug/../src//MasayaTestCase.h:22: undefined reference to `MasayaTestCase::test_character()'
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 13718  ms.  

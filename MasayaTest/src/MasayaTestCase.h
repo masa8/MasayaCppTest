@@ -19,6 +19,7 @@ public:
 	  CPPUNIT_TEST( test_meyers_singleton_reg );
 	  CPPUNIT_TEST( test_singletonholder );
 	  CPPUNIT_TEST( test_mytimer );
+	  CPPUNIT_TEST( test_character );
 	  CPPUNIT_TEST_SUITE_END();
 
 public:
@@ -29,7 +30,7 @@ protected:
   void test_singletonholder();
   void test_meyers_singleton_reg();
   void test_mytimer();
-
+  void test_character();
 };
 
 #endif /* MASAYATESTCASE_H_ */

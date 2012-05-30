@@ -69,3 +69,10 @@ MasayaTestCase::test_mytimer()
 
 }
 
+
+void
+MasayaTestCase::test_character()
+{
+
+	CPPUNIT_ASSERT( true );
+}
