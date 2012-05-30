@@ -8,3 +8,27 @@ src\MasayaTestCase.o:E:\eclipse-cdt\workspace_test\MasayaTest\Debug/../src//Masa
 collect2: ld returned 1 exit status
 Build error occurred, build is stopped
 Time consumed: 13718  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
+Build complete for project MasayaTest
+Time consumed: 7156  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
+Build complete for project MasayaTest
+Time consumed: 7578  ms.  
+
+**** Build of configuration Debug for project MasayaTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IE:\eclipse-cdt\workspace_test\MasayaTest\include -IC:\MinGW\msys\1.0\home\kevin\cppunit-1.12.1\include -O0 -g3 -Wall -c -fmessage-length=0 -o src\MasayaTestCase.o ..\src\MasayaTestCase.cpp
+g++ -LE:\eclipse-cdt\workspace_test\CppTest\Debug -o MasayaTest.exe src\MasayaTestMain.o src\MasayaTestCase.o include\SingletonHolder.o include\SingletonHolder-Impl.o -lCppTest
+Build complete for project MasayaTest
+Time consumed: 7140  ms.  

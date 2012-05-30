@@ -74,5 +74,10 @@ void
 MasayaTestCase::test_character()
 {
 
-	CPPUNIT_ASSERT( true );
+	char x = '9';
+	char y = '0';
+	int number = static_cast<int>(x) - static_cast<int>(y);
+
+	std::cout << number << std::endl;
+	CPPUNIT_ASSERT( number == 9 );
 }
