@@ -14,6 +14,9 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>
+
+#include <algorithm>
+
 CPPUNIT_TEST_SUITE_REGISTRATION( MasayaTestCase );
 
 MasayaTestCase::MasayaTestCase() {
@@ -29,8 +32,80 @@ MasayaTestCase::setUp() {
 	// TODO Auto-generated destructor stub
 }
 
+typedef std::vector<int*> IntV;
+IntV v;
+
+
+void test(int * value){
+
+	IntV::iterator it = std::find(v.begin(),v.end(),value);
+	if( it != v.end())
+	{
+		std::cout << "found!:" << value << std::endl;
+		delete *it;
+		v.erase(it);
+	}
+
+}
+
+class Deleter {
+public:
+	void operator ()(int * value){
+
+		std::cout << value << std::endl;
+		test(value);
+	}
+};
+
+class AreFive{
+public:
+		void operator () (int value){
+			CPPUNIT_ASSERT( value == 5);
+		}
+};
+
+void
+MasayaTestCase::test_vector()
+{
+
+	/*! test cter */
+	std::vector<int> iv;
+	CPPUNIT_ASSERT( iv.size() == 0);
+
+	std::vector<int> iv_ten(10);
+	CPPUNIT_ASSERT( iv_ten.size() == 10);
+
+	std::vector<int> iv_ten_initialized(10,5);
+	CPPUNIT_ASSERT( iv_ten_initialized.size()== 10);
+	for_each(iv_ten_initialized.begin(),iv_ten_initialized.end(),AreFive());
+
+	std::vector<int> copy(iv_ten_initialized);
+	CPPUNIT_ASSERT( copy.size()== 10);
+	for_each(copy.begin(),copy.end(),AreFive());
+
+
+
+
+
+	/*! add item */
+	int *test = new int();
+	std::cout << "Test:"<< test << std::endl;
+	v.push_back(test);
+
+	/*! delete all the item */
+	for_each(v.begin(),v.end(),Deleter());
+	std::cout << test << std::endl;
+
+
+	CPPUNIT_ASSERT(true);
+}
+
+
 void
 MasayaTestCase::test_test() {
+
+
+
 	  CPPUNIT_ASSERT (true);
 }
 void
